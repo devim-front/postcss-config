@@ -1,0 +1,35 @@
+{
+  "name": "@devim-front/postcss-config",
+  "version": "1.0.2",
+  "description": "Конфигурация PostCSS для проектов на TS+React.",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "release": "np && npm publish"
+  },
+  "keywords": [
+    "devim-front",
+    "babel-config"
+  ],
+  "author": "gleb-mikhalkov",
+  "license": "ISC",
+  "devDependencies": {
+    "np": "^6.2.3",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-load-config": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devim-front/postcss-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devim-front/postcss-config/issues"
+  },
+  "homepage": "https://github.com/devim-front/postcss-config#readme"
+}

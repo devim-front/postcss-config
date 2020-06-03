@@ -4,6 +4,7 @@
 const createConfig = () => ({
   plugins: {
     autoprefixer: {},
+    'postcss-global-import': {},
   },
 });
 
